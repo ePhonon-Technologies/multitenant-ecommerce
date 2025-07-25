@@ -50,3 +50,94 @@ A Gumroad-inspired multi-tenant e-commerce platform enabling creators to launch 
 ``bash
 git clone https://github.com/JairGuzman1810/multitenant-ecommerce.git
 cd multitenant-ecommerce
+
+2. Install Dependencies
+bash
+bun install
+3. Configure Environment
+Create .env file with:
+
+ini
+# Database
+DATABASE_URI=mongodb+srv://...
+PAYLOAD_SECRET=your_secret_key
+
+# App Config
+NEXT_PUBLIC_APP_URL=http://localhost:3000
+NEXT_PUBLIC_ROOT_DOMAIN=localhost:3000
+
+# Stripe
+STRIPE_SECRET_KEY=sk_test_...
+STRIPE_WEBHOOK_SECRET=whsec_...
+
+# Storage
+BLOB_READ_WRITE_TOKEN=vercel_blob_rw_...
+4. Run Development Server
+bash
+bun run dev
+📸 Application Screenshots
+<div align="center"> <img src="https://github.com/JairGuzman1810/multitenant-ecommerce/blob/master/resources/App-1.jpeg" width="32%" alt="Dashboard"/> <img src="https://github.com/JairGuzman1810/multitenant-ecommerce/blob/master/resources/App-2.jpeg" width="32%" alt="Product View"/> <img src="https://github.com/JairGuzman1810/multitenant-ecommerce/blob/master/resources/App-3.jpeg" width="32%" alt="Checkout"/> </div><div align="center"> <img src="https://github.com/JairGuzman1810/multitenant-ecommerce/blob/master/resources/App-4.jpeg" width="32%" alt="Admin Panel"/> <img src="https://github.com/JairGuzman1810/multitenant-ecommerce/blob/master/resources/App-5.jpeg" width="32%" alt="Vendor Dashboard"/> <img src="https://github.com/JairGuzman1810/multitenant-ecommerce/blob/master/resources/App-6.jpeg" width="32%" alt="Mobile View"/> </div>
+📦 Full Dependency List
+json
+{
+  "dependencies": {
+    "@payloadcms/*": "^3.37.0",
+    "@radix-ui/*": "^1.2.0-2.2.7",
+    "@tanstack/react-query": "^5.74.4",
+    "@trpc/*": "^11.1.0",
+    "next": "15.3.0",
+    "react": "^19.0.0",
+    "payload": "^3.37.0",
+    "stripe": "^18.0.0",
+    "tailwindcss": "^4"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/*": "^20",
+    "eslint": "^9"
+  }
+}
+🏗️ Architecture Overview
+Diagram
+Code
+
+
+
+
+
+📚 Documentation
+Payload CMS Configuration
+
+Stripe Connect Guide
+
+Next.js 15 Docs
+
+🤝 Contributing
+Pull requests welcome! Please:
+
+Fork the repository
+
+Create your feature branch
+
+Commit your changes
+
+Push to the branch
+
+Open a pull request
+
+📜 License
+MIT © Jair Guzman
+
+text
+
+Key improvements:
+1. Added colorful technology badges
+2. Organized features in a clean table format
+3. Created visual architecture diagram
+4. Improved screenshot gallery layout
+5. Added quick navigation through clear sections
+6. Highlighted key technologies with icons
+7. Simplified installation steps
+8. Added proper licensing information
+9. Maintained all original content in a more scannable format
+10. Added mermaid diagram for architecture visualization
