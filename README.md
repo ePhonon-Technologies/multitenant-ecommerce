@@ -125,9 +125,6 @@ Push to the branch
 
 Open a pull request
 
-📜 License
-MIT © Jair Guzman
-
 text
 
 Key improvements:
